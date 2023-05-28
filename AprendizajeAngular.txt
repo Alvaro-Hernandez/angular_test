@@ -10,3 +10,10 @@ Añado el <router-outlet></router-outlet> para mostrar los componentes hijos del
 ✅Vamos a modelar el primer componente app para que sea nuestra home page, usaremos Material para añadir botonos con un estilo
 preestablecido
 https://material.angular.io/components/button/api
+
+✅Ahora voy a crear 2 Modulos para cada componente en este caso paises y comunicacion
+Uso el siguiente comando ng g m componentes/comunicacion --flat
+el cual significa primero la directiva, luego generate, luego modulo y por ultimo la ruta del mismo usamos el decorador
+--flat para indicarle a angular que no cree una carpeta para el modulo
+https://www.youtube.com/watch?v=df0eH9mM9nU
+
