@@ -1,0 +1,20 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.home h1{
+    font-size: 30px;
+    color: rgb(128, 0, 248);
+}
+.home h3{
+    font-size: 24px;
+    color: rgb(255, 81, 0);
+}
+
+.boxButton button{
+    margin-right: 15px;
+}

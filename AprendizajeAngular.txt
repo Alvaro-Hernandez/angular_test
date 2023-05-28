@@ -4,3 +4,9 @@ https://material.angular.io/guide/getting-started
 ✅Luego de seguir cada uno de los pasos a seguir para usar Material y poder hacer uso de MatToolbarModulo
 uno de los componentes de material de angular.
 https://material.angular.io/components/toolbar/api
+
+Añado el <router-outlet></router-outlet> para mostrar los componentes hijos del componente principal
+
+✅Vamos a modelar el primer componente app para que sea nuestra home page, usaremos Material para añadir botonos con un estilo
+preestablecido
+https://material.angular.io/components/button/api
