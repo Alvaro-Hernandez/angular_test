@@ -1,12 +1,18 @@
 <mat-toolbar color="primary">
-  <mat-toolbar-row> <span>TEST DEV</span></mat-toolbar-row>
+  <mat-toolbar-row>
+    <span>{{ dataSerice.nombreHeader }}</span></mat-toolbar-row
+  >
 </mat-toolbar>
 <section class="home">
   <h1>Welcome</h1>
   <h3>Alvaro Hernandez Test!!</h3>
   <section class="boxButton">
-    <button mat-raised-button color="primary">Change Title</button>
-    <button mat-raised-button color="accent">Country</button>
+    <button mat-raised-button color="primary" routerLink="/comunicacion">
+      Change Title
+    </button>
+    <button mat-raised-button color="accent" routerLink="/paises">
+      Country
+    </button>
   </section>
 </section>
 
