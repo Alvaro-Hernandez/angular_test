@@ -34,3 +34,9 @@ luego poner el nombre de referencia deseado, por lo general las referencias se u
 para hacer referencia a un elemento HTML especifico dentro de la plantilla en nuesto caso el
 input para el modulo de comunicacion, para poder acceder a sus propiedades o metodos en el codigo.
 https://ng-girls.gitbook.io/todo-list-tutorial-spanish/element_ref_
+
+✅Vamos a usar el mismo servicio anterior para consumir el servicio de la API de paises
+Importando el HttpClient el cual nos permite realizar solicitudes HTTP
+https://angular.io/api/common/http/HttpClient
+https://www.youtube.com/watch?v=WtPY-JHczPM&t=5s
+https://restcountries.com/v3.1/alpha/ni(API)
