@@ -17,3 +17,20 @@ el cual significa primero la directiva, luego generate, luego modulo y por ultim
 --flat para indicarle a angular que no cree una carpeta para el modulo
 https://www.youtube.com/watch?v=df0eH9mM9nU
 
+✅Para comunicarnos con el header y el componente vamos a crear un servicio de Angular para
+poder realizar esta asignacion.
+https://www.youtube.com/watch?v=df0eH9mM9nU Minuto: 21:30
+https://docs.angular.lat/tutorial/toh-pt4
+comando
+ng g s services/data(nombre y ubicacion definibles)
+
+✅Ahora voy a crear los componentes que tienen cada modulo para dar respuesta al test
+https://docs.angular.lat/tutorial/toh-pt3
+https://docs.angular.lat/guide/router-tutorial
+
+✅Aprendimos a usar lo que son referencias para el controlador de eventos de la siguiente
+forma "#" este simbolo hace entender a angular que es una variable de referencias
+luego poner el nombre de referencia deseado, por lo general las referencias se utilizan
+para hacer referencia a un elemento HTML especifico dentro de la plantilla en nuesto caso el
+input para el modulo de comunicacion, para poder acceder a sus propiedades o metodos en el codigo.
+https://ng-girls.gitbook.io/todo-list-tutorial-spanish/element_ref_
