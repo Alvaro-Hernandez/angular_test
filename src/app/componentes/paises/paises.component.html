@@ -1,1 +1,31 @@
-<p>paises works!</p>
+<Section>
+  <input type="text" #inputRef maxlength="2" />
+  <button (click)="cargarPais(inputRef.value)">Enviar</button>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Detalles</th>
+        <th>Valor</th>
+        <!-- Añade más encabezados de columna según tus necesidades -->
+      </tr>
+    </thead>
+    <tbody *ngFor="let dato of datosPais">
+      <tr>
+        <td>Nombre</td>
+        <td>{{ dato.name.common }}</td>
+      </tr>
+      <tr>
+        <td>Capital</td>
+        <td>{{ dato.capital }}</td>
+      </tr>
+      <tr>
+        <td>Codigo de Pais</td>
+        <td>{{ dato.cca2 }}</td>
+      </tr>
+      <tr>
+        <td>Simbolo Moneda</td>
+        <td>{{ dato.currencies.NIO.symbol }}</td>
+      </tr>
+    </tbody>
+  </table>
+</Section>

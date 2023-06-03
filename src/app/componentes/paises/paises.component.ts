@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-paises',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaisesComponent implements OnInit {
 
-  constructor() { }
+  datosPais : any;
+  constructor(private service:DataService) { }
 
   ngOnInit(): void {
   }
-
+  cargarPais(codPais:string){
+      this.service.getPais(codPais).subscribe( respons => {
+        console.table(respons);
+        this.datosPais = respons;
+      })
+  }
 }
